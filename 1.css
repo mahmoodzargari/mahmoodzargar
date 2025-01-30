@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+@media screen and (min-width: 47.5rem) {
+    .logo {
+        margin-left: .8rem;
+        max-width: 9rem;
+    }
+}
+#header {
+    padding: 1.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white-color);
+}
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: var(--font-family-headings);
+    margin-right: -7rem;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+nav li {
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: var(--font-size-body);
+    color: var(--very-dark-blue);
+}
+nav ul li a:hover{
+    text-decoration: 1.5px underline;
+}
+@media screen and (min-width: 47.5rem) {
+    #header nav li a {
+        font-size: var(--font-size-500);
+    }
+}
+@media screen and (min-width: 47.5rem) {
+    #header nav ul {
+        gap: 2rem;
+    }
+}
+@media screen and (min-width: 47.5rem) {
+    #header {
+        max-width: 87.5rem;
+        padding: 3rem 3rem 0em 3rem;
+    }
+}
+
+.img1{
+    position: relative;
+    left: 600px;
+    width: 900px;
+    height: 450px;
+    bottom: 200px;
+}
+.head-parap{
+    width: 500px;
+    position: relative;
+    top: 100px;
+    line-height: 20px;
+    margin-left: 30px;
+}
+.input{
+    position: relative;
+    top: 110px;
+}
+.input .email{
+    width: 250px;
+    height: 30px;
+    margin-left: 30px;
+}
+.submit{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    cursor: pointer;
+    color: #f6f3f3;
+    border-radius: 3px;
+}
+.submit:hover{
+    background-color: hsl(224, 84%, 48%);
+}
+.img3{
+    position: relative;
+    left: 900px;
+    width: 600px;
+    height: 450px;
+    top: 100px;
+}
+.head-parap2{
+    width: 555px;
+    position: relative;
+    bottom: 350px;
+    margin-left: 30px;
+}
+.main2{
+    background-color: hsl(240, 75%, 98%); 
+    margin: 0;
+    padding: 0;
+}
+#head-parap2{
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+    padding-bottom: 3px;
+    position: absolute;
+    width: 30%;
+}
+.img5{
+    position: relative;
+    top: 3px;
+    left: 150px;
+}
+.box{
+    margin-left: 30px;
+    width: 380px;
+    height: 250px;
+    background-color: white;
+    position: relative;
+    bottom: 300px;
+    line-height: 25px;
+    border-radius: 5px;
+}
+.img4{
+    margin-left: 30px;
+    position: relative;
+    top: 20px;
+}
+.img6{
+    margin-left: 30px;
+    position: relative;
+    top: 45px;
+    border-radius: 100%;
+    width: 50px;
+    height: auto;
+
+}
+.p{
+    width: 320px;
+    margin-left: 30px;
+    position: relative;
+    top: 25px;
+}
+.img > h4 {
+    margin-left: 100px;
+    margin-top: -35px;
+}
+.img > p {
+    margin-left: 100px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    display: block;
+    background-color: hsl(240, 24%, 53%);
+}
+.box2{
+    width: 470px;
+    position: relative;
+    top: 90px;
+    margin-left: 30px;
+}
+.box2 > p {
+    line-height: 25px;
+    color: #f9f4f4;
+}
+.box2 > h1 {
+    color: #f6f3f3;
+}
+.button2{
+    position: relative;
+    left: 950px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.button2 > input {
+    width: 350px;
+    height: 35px;
+    text-indent: 10px;
+    border: none;
+    border-radius: 3px;
+}
+.button2 > .submit{
+    position: relative;
+    top: 10px;
+    width: 150px;
+    height: 35px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    color: #f6f3f3;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.button2 > .submit:hover{
+    background-color:  hsl(224, 84%, 48%);
+}
+.fylo-footer {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 4.5rem 3rem;
+}
+@media screen and (min-width: 47.5rem) {
+    .fylo-footer svg {
+        margin-block: 1rem;
+    }
+}
+@media screen and (min-width: 47.5rem) {
+    .fylo-address {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+@media screen and (min-width: 47.5rem) {
+    .address {
+        margin-top: 1.2rem;
+    }
+}
+.phone {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+img, svg {
+    display: block;
+    max-width: 100%;
+}
+.fylo-email {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+@media screen and (min-width: 47.5rem) {
+    .nav-links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-block: 0;
+        padding-block: 0;
+    }
+}
+@media screen and (min-width: 47.5rem) {
+    .about {
+        margin-bottom: 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.nav-links a {
+    color: var(--white-color);
+    display: block;
+    text-decoration: none;
+    margin-top: 1.4rem;
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-400);
+}
+.nav-links a:hover{
+    color: hsl(224, 84%, 48%);
+    text-decoration: 1.5px underline;
+}
+@media screen and (min-width: 47.5rem) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-block: 0;
+    }
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+@media screen and (min-width: 47.5rem) {
+    .icons {
+        align-items: flex-start;
+        margin-top: 2rem;
+    }
+}
+.fa-brands {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: .5rem .5rem;
+    cursor: pointer;
+}
+.fa-facebook-f {
+    --fa: "\f39e";
+}
+.fa-brands, .fab {
+    font-weight: 400;
+}
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+}
+.fa-brands:active{
+    border-color: hsl(224, 84%, 48%);
+    color: hsl(224, 84%, 48%);
+}
